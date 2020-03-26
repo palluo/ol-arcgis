@@ -1,0 +1,24 @@
+{
+    "name": "ol-arcgis",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "jest --config jestconfig.json --coverage",
+        "start": "ts-node-dev ./src/index.ts -P tsconfig.json --no-cache",
+        "build": "tsc -P tsconfig.json",
+        "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+        "lint": "tslint -p tsconfig.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/palluo/ol-arcgis.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/palluo/ol-arcgis/issues"
+    },
+    "homepage": "https://github.com/palluo/ol-arcgis#readme"
+}
