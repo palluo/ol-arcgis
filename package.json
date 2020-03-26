@@ -9,8 +9,7 @@
     "build": "tsc -P tsconfig.json",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
-    "codecov": "codecov",
-    "publish": "./publish.sh"
+    "codecov": "codecov"
   },
   "repository": {
     "type": "git",
